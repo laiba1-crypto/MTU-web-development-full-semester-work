@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+<head>
+    <title>THE AVENGERS HEROES</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="images/x-icon" href="images/avengers.png">
+</head>
+
+<body>
+    
+    <div class="logo">
+        <h2><img src="images/marvel.jpg" width ="250" height="70" alt="Sitelogo"/><span style="margin-left: 7em;">
+            The Avengers
+         </span></h2>
+    </div>
+    
+    <div class="row">
+      <div class="column side">
+        <div class="dropdown">
+            <button class="dropbtn">Navigation</button>
+            <div class="dropdown-content">
+              <a href="https://www.marvel.com/">Marvel Official</a>
+              <a href="https://www.marvelhq.com/comics">Marvel Comics</a>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div>
+            <label for="rate">Rate this Website</label>
+            <br>
+            <input type="range" id="rate" name="rate"
+                   min="0" max="10">
+                   
+          </div>
+          <br>
+          <br>
+          <br>
+          <img src="images/avengers.png"
+         onmouseover="this.src='images/logo2.png';"
+         onmouseout="this.src='images/avengers.png';"
+         height=120
+         width=140 />
+      </div>
+      <div class="column middle">
+        <h4>Who is your favourite member of Avengers ? </h4>
+        <label for="avenger">Enter your choice here :</label>
+        <input type="text" id="avenger" name="avenger"> <br>
+        <button type="button" onclick="myFunction()">Submit Choice</button>
+        <br>
+        <p>The Avenger you selected is below </p><b><p style="color:red" id="avenge"></p></b>
+
+        <div>
+            <h3>PLAY THE GAME !</h3>
+            <p>To play the game please press the button below : </p>
+            <button onclick="myFunc()" id="select" class="choosebtn">Let's Play</button>
+        </div>
+        <br><br>
+        <img src="images/default.jpg" name="picture">
+        <div id="container" class="main">
+        <div id="content" style="border: 1px solid #000; width:350px; display: none;">
+          <h1>
+          HULK
+          </h1>
+            <div class="list">
+                <p><b>Character Name: </b>Hulk/p>
+                <p><b>Actor Name: </b>Bruce Banner</p>
+                <p><b>AGE: </b>49</p>
+                <p><b>Type: </b>Warrior Beast</p>
+                <p><b>Nemesis: </b>Thunderbolt</p>
+                <p><b>Freind: </b>Rick Jones </p>
+                <p><b>First Appearance: </b>The Incredible Hulk no.1</p>
+           </div>
+
+            </div>
+      
+            <div id="content1" style="border: 1px solid #000; width:350px; display: none;">
+                <h1>
+          IRON MAN
+          </h1>
+            <div class="list">
+                <p><b>Character Name: </b>Iron Man</p>
+                <p><b>Actor Name: </b>Tony Stark</p>
+                <p><b>AGE: </b>48</p>
+                <p><b>Type: </b>Robbots</p>
+                <p><b>Nemesis: </b>Mandarin</p>
+                <p><b>Freind: </b>James Rhodes</p>
+                <p><b>First Appearance: </b>Tales of Suspense no.39</p>
+           </div>
+                
+            </div>
+        
+            <div id="content2" style="border: 1px solid #000; width:350px; display: none;">
+                <h1>
+          Dr Strange
+          </h1>
+          
+          <div class="list">
+            <p><b>Character Name: </b>Dr Strange</p>
+            <p><b>Actor Name: </b>Benedict Cumberbatch</p>
+            <p><b>AGE: </b>45</p>
+            <p><b>Type: </b>Magic</p>
+            <p><b>Nemesis: </b>Baron Karl Amadeus Mordo (known as Baron Mordo)</p>
+            <p><b>Freind: </b>Wong</p>
+            <p><b>First Appearance: </b>Strange Tales no. 110</p>
+       </div>
+            </div>
+        
+        <div id="content3" style="border: 1px solid #000; width:350px; display: none;">
+                <h1>
+          Captain America
+          </h1>
+          
+          <div class="list">
+            <p><b>Character Name: </b>Captain America</p>
+            <p><b>Actor Name: </b>Chris Evans</p>
+            <p><b>AGE: </b>40</p>
+            <p><b>Type: </b>Super Soldier</p>
+            <p><b>Nemesis: </b>Red Skull</p>
+            <p><b>Freind: </b>Barnes</p>
+            <p><b>First Appearance: </b>The First Avenger</p>
+       </div>
+            </div>
+        
+        </div>
+        
+        
+      </div>
+    </div>
+    
+    <div class="footer">
+      <p>Author : Laiba Asif</p>
+    </div>
+
+
+</body>
+</html>
